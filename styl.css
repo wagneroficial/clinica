@@ -1,0 +1,77 @@
+body{
+    background-color:#E8F4FA;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    height: 200px;
+    margin-top: -20px;
+}
+
+
+header h1{
+    position: relative;
+    top: 45%;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    /* Specify the background image to be used */
+    background-image: url('imagens/cli.webp');
+
+    /* Specify the background image */
+    opacity: 0.2;
+}
+
+form{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50% ,-60%);
+}
+
+fieldset{
+    width: 30%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    background-color: rgba(218, 226, 230, 0.4);
+    font-size: 16px ;
+    border-radius: 25px;
+    
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+p{
+    margin: auto;
+    color: black;
+}
+
+.centro{
+    text-align: center;
+    color: black;
+}
+
+
+#enviar{
+    background-color:#E8F4FA ;
+}
+
+#enviar:hover{
+    background-color: rgba(16, 211, 250, 0.86);
+    cursor: pointer;
+}

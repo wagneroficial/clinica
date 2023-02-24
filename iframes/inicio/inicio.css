@@ -1,0 +1,36 @@
+input{
+    text-align: center;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+div{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+div.direita{
+    margin-left: 25%;
+}
+
+div.esquerda{
+    margin-left: 10%;
+}
+
+input.cima{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: aqua;
+}
+
+input.baixo{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+input{
+    padding: 10px;
+}
